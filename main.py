@@ -36,6 +36,10 @@ driver.quit()
 #############################        PT 2         ####################################
 ################## sending screener info to personal email ###########################
 
+fromaddr = sender_email
+toaddr = receiver_email
+apppass = mailpass
+
 fromaddr = "amilshahulfortnite@gmail.com"
 toaddr = "amil.shahul777@gmail.com"
 apppass = "hpbbfiafalubtlvz"
