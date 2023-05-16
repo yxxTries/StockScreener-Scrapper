@@ -65,7 +65,7 @@ def web_scrapper():
 
     # open the file to be sent
     filename = "gappers.jpg"
-    attachment = open("D:\coding stuff\stock gappers\gappers.jpg", "rb")
+    attachment = open("name.jpg", "rb")
 
     # instance of MIMEBase and named as p
     p = MIMEBase('application', 'octet-stream')
