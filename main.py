@@ -24,7 +24,7 @@ opt.add_experimental_option("excludeSwitches", ["enable-logging"])
 #activating webdriver and opening webpage
 def web_scrapper(): 
     
-    driver = webdriver.Chrome(options = opt, executable_path='D:\coding stuff\stock gappers\chromedriver.exe')
+    driver = webdriver.Chrome(options = opt, executable_path='chromedriver.exe')
     driver.get('https://www.screener.in/screens/743398/stock-go-up/')
 
     #screenshoting the selenium webpage
@@ -41,8 +41,8 @@ def web_scrapper():
     toaddr = receiver_email
     apppass = mailpass
 
-    fromaddr = "amilshahulfortnite@gmail.com"
-    toaddr = "amil.shahul777@gmail.com"
+    fromaddr = "from@gmail.com"
+    toaddr = "receive@gmail.com"
     apppass = "hpbbfiafalubtlvz"
 
     # instance of MIMEMultipart
